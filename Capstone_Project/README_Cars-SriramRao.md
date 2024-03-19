@@ -15,7 +15,9 @@ The source of historical used car price data employed in this project was obtain
 
 ## The Model
 
-Adopting the CRISP-DM methodology of arriving at a model, we selected the **Random Forest Ensemble Regressor Model** that uses a 'forest' of binary trees to solve the used vehicle pricing problem.
+Adopting the CRISP-DM methodology of arriving at a model, we selected the **Random Forest Ensemble Regressor Model** that uses a 'forest' of binary trees to solve the used vehicle pricing problem. 
+
+This model delivers an **accuracy score of over 86%** which amounts to being **off in price prediction** only by about **2,600 Sterling Pounds** (currency assumed as it's not part of the data set description).
 
 You can refer to the detailed study in this [document](Cars-SriramRao.ipynb).
 
@@ -40,7 +42,7 @@ Once the customer has chosen a used car offered by a private seller they are int
 * Year of Registration (Manufacture)
 * The power of the engine
 * Kilometers the vehicle has run (Odometer reading)
-* Brand (Make) of the car - like Volvo, Volkswagen, Mercedes-Benz
+* Brand (Make) of the car - like Volvo, Voklswagen, Mercedes-Benz
 * Vehicle type - car, SUV, Limo etc
 
 With the click of a button the estimated price the customer can safely pay will be displayed on the web browser!
